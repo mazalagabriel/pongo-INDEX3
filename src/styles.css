@@ -1,0 +1,46 @@
+body{
+  font-family: sans-serif;
+  }
+
+nav {
+  font-weight: bold;
+  word-spacing: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  background-color: grey;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+/*define o estilo do link no estado inicial*/
+a:link{
+  color: #90f;
+  text-decoration: none;
+}
+/*define o estilo do link quando passar o mouse sobre o mesmo*/
+a:hover{
+  color: #0f0;
+}
+/*define o estilo do link visitado*/
+a:visited{
+  color: #f00;
+}
+/*define o estilo do link ativo (o que foi clicado)*/
+a:active{
+  color: #c90;
+}
+
+figure{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  }
+  
